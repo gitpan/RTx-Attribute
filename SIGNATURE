@@ -1,0 +1,45 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.35.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It would check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 da39a3ee5e6b4b0d3255bfef95601890afd80709 Changes
+SHA1 b5dd194e9dbafde2339bd22f9b6afeadb86ce251 MANIFEST
+SHA1 93806c1611e809642a52a0ba43c9f062146dd6e8 META.yml
+SHA1 fade4d2cc7c4468b038964cda464c23f2deaddea Makefile.PL
+SHA1 d90b618d0c984e9d99a9b5a57cec0310f8c306f7 README
+SHA1 e36c7243d417702238390b8f7280c67a6cd35981 etc/schema.Pg
+SHA1 06d102a4c7861b76b7a31c75933a1b0286565af9 etc/schema.mysql
+SHA1 2b6751f9e3f78bfba9ebf348d9d99ddbde9d35e8 inc/Module/Install.pm
+SHA1 0e59a6491b7275cacf070218c862a42e8135f6d8 inc/Module/Install/Base.pm
+SHA1 2947a46529e9b64cf5e0291a20332e71edabc546 inc/Module/Install/Include.pm
+SHA1 cb63ee2fceecea6f93cc25bfb5cc122ca6870ed8 inc/Module/Install/MakeMaker.pm
+SHA1 f042d91d7f691e36c8bcb0b495dfc0b9f92576c3 inc/Module/Install/Makefile.pm
+SHA1 5494a21ff1755b95f0d36c788e4816af0c804645 inc/Module/Install/Metadata.pm
+SHA1 4290a41375e931a7265eb287c8eb58591cec7db4 inc/Test/Builder.pm
+SHA1 aede4a85850068b00e25b6b4f10bf1cd11c5b73b inc/Test/More.pm
+SHA1 c891f9acfb25ad7a21cfa65195be5bcb229fb5e8 lib/RTx/Attribute.pm
+SHA1 1ae7fff00dc5e186f64c8ac3aec55b830df75c80 lib/RTx/Attribute_Overlay.pm
+SHA1 9488d89717d0920d22c5f5ebbfae43a4ba142f94 lib/RTx/Attributes.pm
+SHA1 7276e642d790d3ebf9d4dd899c4c60a9a14df137 lib/RTx/Attributes_Overlay.pm
+SHA1 4d58813bcf7679dd047a1181a430ce6da1ac5f00 lib/RTx/SearchBuilder_Overlay/Attribute.pm
+SHA1 d99d96161b23bf89af6c6c38bd8948c7b54eec7b t/0-signature.t
+SHA1 01d238367aa3b79d748116a9491fa2394ce28cc8 t/1-basic.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.2.3 (FreeBSD)
+
+iD8DBQE/XvEGtLPdNzw1AaARAgBvAKCWRpHtQZV9gOYxGz119v06Cxq8tACdH8b/
+ejGYszGTAY6c23zDivdRxtI=
+=HoBP
+-----END PGP SIGNATURE-----

@@ -1,0 +1,10 @@
+CREATE TABLE IF NOT EXISTS Attributes (
+  id INTEGER NOT NULL  AUTO_INCREMENT,
+  Name varchar(200) NULL  ,
+  Description varchar(255) NULL  ,
+  ObjectType varchar(64),
+  ObjectId integer, # foreign key to anything
+  PRIMARY KEY (id)
+) TYPE=InnoDB;
+
+CREATE INDEX Attributes1 on Attributes(Name, ObjectType, ObjectId);

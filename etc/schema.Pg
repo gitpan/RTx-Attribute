@@ -1,0 +1,10 @@
+CREATE SEQUENCE attributes_id_seq;
+
+CREATE TABLE Attributes (
+  id INTEGER DEFAULT nextval('attributes_id_seq'),
+  Name varchar(200) NULL  ,
+  Description varchar(255) NULL  ,
+  ObjectType varchar(64),
+  ObjectId integer,
+  PRIMARY KEY (id)
+);
